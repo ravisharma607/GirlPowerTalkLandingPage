@@ -1,0 +1,36 @@
+
+.sideNav{
+    position: fixed;
+    z-index: 9;
+    right: -500px;
+    height: 100%;
+    width: 30%;
+    background-color: #FF4C5A;
+    opacity: .8;
+    top: 0px;
+    padding:0 50px;
+    display: flex;
+    flex-direction: column;
+}
+.sideNav.active{
+    right: 0px;
+}
+.sideNav ul li{
+    display: flex;
+}
+.sideNav ul li{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.sideNav ul li:hover{
+    text-decoration: underline;
+}
+.sideNav #cross{
+    font-size: 32px;
+    margin: 10px 0;
+    color: #fff;
+    cursor: pointer;
+}

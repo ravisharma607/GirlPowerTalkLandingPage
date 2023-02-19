@@ -1,0 +1,99 @@
+
+.info-container{
+    height: 700px;
+    width: 100%;
+    margin: 20px auto;
+    background: pink;
+    display: flex;
+}
+.infoLeft{
+    height: 100%;
+    width: 50%;
+    background-image: url('./Img/back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+.infoLeft h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #ffff;
+    margin: 20px auto;
+}
+.infoLeft p{
+    font-size: 22px;
+    color: #ffff;
+}
+.peopleInfo{
+    color: #fff;
+}
+.peopleInfo p{
+    color: tomato;
+}
+.infoRight{
+    height: 100%;
+    width: 50%;
+    background-image: url('./Img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.infoRight .cardBox{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+.infoRight .cardBox .desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+.desc .leftMove img{
+    cursor: pointer;
+}
+.desc .rightMove img{
+    cursor: pointer;
+}
+.infoRight .cardBox .desc .descText p{
+    font-size: 20px;
+    margin: 8px 28px;
+    color: #ffff;
+}
+.descText .btn{
+    color: #ffff;
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.descText .btn:hover{
+    background-color: #cf2e2e;
+    border: none;
+}
+
+@media screen and (max-width:950px){
+    .info-container{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .infoLeft{
+        width: 100%;
+    }
+    .infoRight{
+        width: 100%;
+    }
+}

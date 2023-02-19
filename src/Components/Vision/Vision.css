@@ -1,0 +1,51 @@
+
+.vision-box{
+    margin: 20px auto;
+    padding: 10px 150px;
+    height: 450px;
+    width: 100%;
+    background-image: url('./Img/vision.jpg');
+    background-size: cover;
+}
+.vision-box .heading h3{
+    margin: 20px 0;
+    font-size: 42px;
+    color: rgb(59, 47, 47);
+}
+.vision-box .para{
+    width: 60%;
+}
+.vision-box .para p{
+    margin: 20px 0;
+    line-height: 35px;
+    color: black;
+    font-weight: 600;
+}
+.action{
+    width: 60%;
+    text-align: right;
+}
+.action .VisionBtn{
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid red;
+    background: none;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+.action .VisionBtn:hover{
+    background: #FF4C5A;
+    color: #fff;
+}
+@media screen and (max-width:1100px){
+    .vision-box{
+        height: 100%;
+        padding: 50px 10px;
+    }
+    .vision-box .para{
+        width: 100%;
+    }
+    .action{
+        width: 100%;
+    }
+}

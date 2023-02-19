@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: #8b383f;
+    z-index: 2;
+}
+.nav-content{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px;
+    background: transparent;
+    position: static;
+}
+.nav-content .logo img{
+    width: 350px;
+}
+.nav-content .menu{
+    margin-right: 38px;
+    filter: invert(1);
+}
+.nav-content .menu img{
+    width: 35px;
+    color: #ffff;
+    cursor: pointer;
+}
+.nav-links{
+    width: 100%;
+}
+.nav-content .nav-links ul li a{
+    font-size: 22px;
+    margin: 0 15px;
+    color: #ffff;
+}
+.nav-content .nav-links ul li a:hover{
+    border-bottom: 1px solid #ffff;
+}
+.search-box input{
+    width: 0;
+    background: transparent;
+    padding: 7px 4px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+.search-box input.active{
+    border: 1px dotted black;
+    width: 240px;
+    background: #fff;
+}
+.search-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-box span{
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 15px;
+    color: #ffff;
+}
+.search-box span.active{
+    padding: 2px 5px;
+    background: #fff;
+    color: #000;
+}
+/* --------------------------------------------------------- */
+@media screen and (max-width:1082px){
+    .nav-content .nav-links ul li a{
+        font-size: 15px;
+    }
+    .nav-content .logo img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:800px){
+    .navbar{
+        width: 100%;
+    }
+    .nav-content .nav-links{
+        display: none;
+    }
+    .nav-content{
+        width: 100vw;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 100px;
+    }
+    .search-box{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.partners-box{
+    height: 100%;
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.partners-box .ImgCard img{
+    display: inline-block;
+    height: 90px;
+    width: 200px;
+    margin: 20px;
+}
+.partners-box .ImgCard img:hover{
+    transform: scale(1.2);
+}
+.partners-box .ImgCard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+} 
+.partners-box .heading h2{
+    font-size: 42px;
+    margin: 10px auto;
+}
+.partners-box .btn{
+    background-color: #FF4C55;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 4px;
+}
+.partners-box .btn:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width:1200px){
+    .partners-box{
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+}

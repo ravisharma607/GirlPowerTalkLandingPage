@@ -1,0 +1,25 @@
+
+.youtubeVideoCards{
+    width: 90%;
+    height: 100%;
+    margin: 60px auto;
+}
+.videoCards{
+    width: 100%;
+}
+.videoCards .video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:950px){
+    .videoCards .video{
+        width: 100%;
+        justify-content:center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .video iframe{
+        margin: 20px 0;
+    }
+}

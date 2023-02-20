@@ -63,14 +63,18 @@
     .movement{
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 10px auto;
     }
     .movement .left{
-        width: 100%;
-        /* top: -50px; */
+        width: 80%;
     }
     .movement .right{
+        padding: 0;
+        height: auto;
         width: 100%;
-        position: absolute;
-        top: 90%;
+        position: relative;
+        top: 80%;
+        right: 0;
+        left: 0;
     }
 }

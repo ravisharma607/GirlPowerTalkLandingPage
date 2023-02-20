@@ -85,12 +85,12 @@ margin-right: 8px;
     color: black;
     border: none;
 }
-.detailed-box .footer .right {
+.detailed-box .Latestfooter .right {
     width: 60%;
     height: 100%;
     margin-right: 90px;
 }
-.detailed-box .footer .right .btn {
+.detailed-box .Latestfooter .right .btn {
     width: 30%;
     border: none;
     border-left: 1px solid red;
@@ -100,7 +100,7 @@ margin-right: 8px;
     align-items: center;
 }
 
-.detailed-box .footer .right .btn ion-icon {
+.detailed-box .Latestfooter .right .btn ion-icon {
     margin-left: 12px;
 }
 
@@ -200,18 +200,25 @@ margin-right: 8px;
         font-size: 52px;
     }
 }
-
+@media screen and (max-width:900px){
+    .latest-box-container .right h2{
+        font-size: 22px;
+        margin: 30px auto;
+    }
+    .latest-box-container .right p{
+        font-size: 15px;
+    }
+}
 @media screen and (max-width:1200px) {
     .detailed-box {
-        padding: 10px 20px;
+        padding:0;
         flex-direction: column;
     }
-
     .latest-carousel-box {
         height: 100vh;
         width: 100%;
     }
-    .detailed-box .footer .right .btn {
+    .detailed-box .Latestfooter .right .btn {
         width: 100%;
         font-size: 32px;
         color: black;
@@ -230,10 +237,10 @@ margin-right: 8px;
        padding: 20px;
     }
     .latest-box-container p{
-        font-size: 32px;
+        font-size: 28px;
     }
     .latest-box-container h2{
-        font-size: 52px;
+        font-size: 32px;
     }
     .latest-box-container .latest-carousel {
         width: 100%;
@@ -245,19 +252,18 @@ margin-right: 8px;
     }
     .detailed-box .left{
         width: 50%;
+        margin: 0 auto;
+        border: 1px solid red;
+        display: flex;
     }
     .detailed-box .right {
-        height: 400px;
         width: 100%;
     }
-
     .latest-carousel-box {
         position: absolute;
         top: 400px;
     }
-
     .latest-carousel .image-card .overCards {
-        margin-top: 100px;
         display: none;
     }
 

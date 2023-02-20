@@ -49,7 +49,7 @@ const Culture = () => {
 
 
     return (
-        <section className="box">
+        <section className="cultureBox box">
                         <div className="right">
                 <div className="heading">
                     <h2>Our Unique Culture</h2>

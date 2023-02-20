@@ -1,11 +1,9 @@
 import React from 'react'
-// import movement_img from './Img/movement.png'
 import './Movement.css'
 const Movement = () => {
   return (
     <div className="movement">
         <div className="left">
-            {/* <img src={movement_img} alt="" /> */}
         </div>
         <div className="right">
     <div className="heading">

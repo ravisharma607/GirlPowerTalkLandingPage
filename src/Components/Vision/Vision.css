@@ -1,9 +1,9 @@
 
 .vision-box{
-    margin: 20px auto;
     padding: 10px 150px;
     height: 450px;
     width: 100%;
+    margin: 20px auto;
     background-image: url('./Img/vision.jpg');
     background-size: cover;
 }
@@ -39,7 +39,9 @@
 }
 @media screen and (max-width:1100px){
     .vision-box{
+        /* width: 120vw; */
         height: 100%;
+        margin: 100px auto;
         padding: 50px 10px;
     }
     .vision-box .para{

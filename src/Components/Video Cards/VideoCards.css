@@ -19,7 +19,14 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
+    .videoCards{
+        width: 100%;
+        margin-top: -100px;
+    }
     .video iframe{
-        margin: 20px 0;
+        margin: 20px auto;
+    }
+    .videoCards .video{
+        margin-left: 20px;
     }
 }

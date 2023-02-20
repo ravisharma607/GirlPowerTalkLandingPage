@@ -1,5 +1,4 @@
 import React from 'react'
-// import bg from './Img/back.png'
 import './HaveFun.css'
 const HaveFun = () => {
   return (

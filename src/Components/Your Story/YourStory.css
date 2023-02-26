@@ -7,7 +7,7 @@
     align-items: center;
     padding: 20px 50px;
     position: relative;
-    margin-top: 300px;
+    margin-top: 20px;
 }
 .storyBox .storyLeft{
     width: 40%;
@@ -52,14 +52,17 @@
     opacity: 1;
 }
 .overCard .btn{
-    background: #FF4C5A;
-    border: none;
-    margin: 15px 0;
-    color: black;
+    background-color: #FF4C55;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 5px;
 }
 .overCard .btn:hover{
-    background: #ffff;
-    border: 1px solid black;
+    background: #fff;
+    border: none;
+    color: black;
 }
 @media screen and (max-width:1400px) and (min-width:1000px){
     .storyBox .image-cards .cards img{

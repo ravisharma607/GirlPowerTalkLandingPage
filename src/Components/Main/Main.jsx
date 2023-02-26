@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer'
 import HaveFun from '../HaveFun/HaveFun'
 import Home from '../Home/Home'
 import Info from '../Info Section/Info'
-import Latest from '../Latest/Latest'
+import LatestCarousel from '../Latest/LatestCarousel'
 import Movement from '../Movement/Movement'
 import Navbar from '../Navbar/Navbar'
 import Partners from '../Our Partners/Partners'
@@ -30,7 +30,7 @@ const Main = () => {
     <VideoCards />
     <Family />
     <Culture />
-    <Latest />
+    <LatestCarousel />
     <YourStory />
     <Info />
     <Partners />

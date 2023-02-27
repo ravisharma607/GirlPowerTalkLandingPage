@@ -214,3 +214,25 @@
         margin-top: 50px;
     }
 }
+@media screen and (max-width:500px){
+    .latestBox hr{
+        height: 2px;
+        width: 100%;
+        left: 0;
+        top: 350px;
+    }
+    .rightContent .action {
+        width: 100%;
+    }
+    .rightContent .action p{
+        font-size: 12px;
+    }
+    .latestContainer h2 {
+        color: #ffff;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .latestContainer p {
+        font-size: 1rem;
+    }
+}

@@ -90,7 +90,7 @@
 }
 @media screen and (max-width:800px){
     .navbar{
-        width: 100%;
+        width: auto;
     }
     .nav-content .nav-links{
         display: none;

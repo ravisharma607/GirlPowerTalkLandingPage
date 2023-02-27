@@ -3,7 +3,6 @@
     height: 700px;
     width: 100%;
     margin: 20px auto;
-    background: pink;
     display: flex;
 }
 .infoLeft{
@@ -88,12 +87,45 @@
 @media screen and (max-width:950px){
     .info-container{
         flex-direction: column;
-        height: 100vh;
+        height:auto;
+        width: 95%;
+        margin: 0 auto;
     }
     .infoLeft{
-        width: 100%;
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 90px;
     }
     .infoRight{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .infoLeft h2{
+        font-size: 22px;
+        margin: 20px auto;
+    }
+    .infoLeft p{
+        font-size: 15px;
+        color: #ffff;
+    }
+    .infoRight .cardBox .desc{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .infoRight .cardBox .desc .descText p{
+        font-size: 10px;
+        margin:0;
+        color: #ffff;
+    }
+    .desc .leftMove img{
+        height: 22px;
+    }
+    .desc .rightMove img{
+        height: 22px;
     }
 }

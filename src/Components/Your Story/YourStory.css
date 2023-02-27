@@ -107,3 +107,8 @@
         cursor: pointer;
     }
 }
+@media screen and (max-width:500px){
+    .storyBox{
+        padding: 10px;
+    }
+}
